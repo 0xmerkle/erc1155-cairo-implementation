@@ -2,6 +2,7 @@
 
 @contract_interface
 namespace IERC1155:
+    # balances
     func balanceOf(owner : felt, token_id : felt) -> (balance : felt):
     end
 
